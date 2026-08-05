@@ -14,13 +14,13 @@ Missouri produces **two** attendance statistics. They are built differently and 
 |---|---|---|
 | Unit | whole days | **hours** |
 | Formula | days absent ≥ 10% of days enrolled | hours attended ÷ hours enrolled |
-| Threshold | chronically absent at ≥10% | proportional attendance at ≥90% |
+| Threshold | chronically absent at ≥10% | proportional attendance at ≥90%, for 90% of students |
 | Used for | federal reporting | MSIP 6 |
 | In this folder | yes, the CSVs below | no — PAR-derived values live in the research notes |
 
 **The files in this folder are EDFacts — day-based.** Any PAR-derived figure (100 − PAR) appearing in the research notes is a different measure and **must not be compared to these rates or mixed into the same series.**
 
-The common phrasing *"missing 10% of school days, about 18 days"* is shorthand for a 180-day calendar. Missouri's own calculation is a percentage of scheduled hours, submitted through Core Data / MOSIS.
+The common phrasing *"missing 10% of school days, about 18 days"* is shorthand for a 180-day calendar. Missouri's own calculation is a percentage of scheduled hours, submitted through Core Data / MOSIS. Missouri statute defines average daily attendance the same way — hours attended divided by hours school was in session (RSMo 163.011).
 
 ---
 
@@ -63,8 +63,10 @@ Grandview R-II's rate falls 19.1% → 4.4% between 2021-22 and 2022-23. No child
 **2. Both measures collapse to one annual figure and a binary threshold.**
 A student at 89% and a student at 50% appear the same in the statistic. The pattern — consecutive days, every Monday, first period only — stays inside the district. Districts hold the granular hour-level data that produces the state figure; what gets published is the summary.
 
-**3. Part-day capture depends on local practice.**
-Hours only reach the state if schools mark absences by period and their student information system passes them through. Practice varies by district. Studies that count part-day absence report rates roughly 9% → 24% against whole-day counting — an indication of how much a day-based measure leaves out, and a reason the two measures above should never be blended.
+**3. Day-based counting misses part-day absence — in the population where that has been measured.**
+Whitney & Liu (2017), *What We're Missing: A Descriptive Analysis of Part-Day Absenteeism in Secondary School*, AERA Open 3(2). Class-by-class attendance for **more than 50,000 students in one large California district, grades 6–12, 2007-08 through 2012-13.** Counting part-day absence raised chronic absenteeism from **9% to 24%**, and part-day absence accounted for as many missed classes as full-day absence.
+
+**Scope this figure carefully.** It is one district, secondary grades only, and pre-pandemic. **It says nothing about elementary grades**, and it is a critique of *day-based* counting — which describes the EDFacts files here, not Missouri's hour-based PAR.
 
 **4. FRL is a proxy that has been drifting.**
 Community Eligibility Provision changes which schools collect individual forms, so FRL counts are not cleanly comparable across schools or years. It remains the best school-level poverty measure available here — treat it as directional.
